@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Design</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --basecolor: #1e293b;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        padding-left: 20px;
+        font-size: 1.1rem;
+      }
+
+      a:hover {
+        color: antiquewhite;
+      }
+
+      .header {
+        background-color: var(--basecolor);
+        color: white;
+        padding: 10px 10px 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+      .ic {
+        padding-right: 10px;
+      }
+
+      /* ================ */
+      .display-section {
+        background-color: var(--basecolor);
+        color: white;
+        line-height: 1.7rem;
+        padding: 0 10px;
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        align-items: center;
+        height: 250px;
+      }
+
+      .disinfo {
+        margin-top: 30px;
+
+        justify-self: center;
+      }
+      .disimg img {
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      form input {
+        width: 60%;
+        outline: none;
+        padding: 2px 10px;
+      }
+      form button {
+        outline: none;
+        border: none;
+        padding: 3px 5px;
+        cursor: pointer;
+      }
+
+      form button:hover {
+        background-color: black;
+        color: red;
+      }
+      /* ====================================== */
+      .courses {
+        margin: 75px 0 20px 0;
+        padding: 0 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      }
+
+      /* .course {
+        border: 1px solid black;
+      } */
+      .bord {
+        border: 1px solid rgb(161, 204, 162);
+        padding-top: 20px;
+        padding-inline-start: 10px;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      .common {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .p {
+        margin-top: 100px;
+      }
+      /* ================================================================ */
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="logo">
+          <div class="ic">
+            <i class="fa-brands fa-slack fa-xl"></i>
+          </div>
+          <h1>Course Web</h1>
+        </div>
+
+        <nav>
+          <a href="">About</a>
+          <a href="">Contact</a>
+        </nav>
+      </div>
+      <!-- ======================================== -->
+    </div>
+
+    <div class="display-section">
+      <div class="disinfo">
+        <h2>Learn any digital skill of your choice today</h2>
+        <h5>Over 30000 students currently learn with us</h5>
+        <form action="#">
+          <input type="text" />
+          <button>Start Learning</button>
+        </form>
+        <h5>Over 30000 students currently learn with us</h5>
+      </div>
+      <div class="disimg">
+        <img
+          src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+      </div>
+    </div>
+    <!-- ================================================ -->
+
+    <div class="courses">
+      <div class="bord">
+        <div class="course">
+          <div class="ics common">
+            <i class="fa-solid fa-book fa-2xl"></i>
+          </div>
+        </div>
+        <br />
+        <h3 class="common">Over 300 available courses</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias,
+          nulla corporis? Maiores, impedit fuga? Quos veritatis illo in, nihil
+          distinctio sit nesciunt possimus vel adipisci debitis, nulla maxime.
+          Fugit, consequatur.
+        </p>
+      </div>
+
+      <div class="bord">
+        <div class="course">
+          <div class="ics common">
+            <i class="fa-solid fa-book fa-2xl"></i>
+          </div>
+        </div>
+        <br />
+        <h3 class="common">Over 300 available courses</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias,
+          nulla corporis? Maiores, impedit fuga? Quos veritatis illo in, nihil
+          distinctio sit nesciunt possimus vel adipisci debitis, nulla maxime.
+          Fugit, consequatur.
+        </p>
+      </div>
+      <div class="bord">
+        <div class="course">
+          <div class="ics common">
+            <i class="fa-solid fa-book fa-2xl"></i>
+          </div>
+        </div>
+        <h3 class="common">Over 300 available courses</h3>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias,
+          nulla corporis? Maiores, impedit fuga? Quos veritatis illo in, nihil
+          distinctio sit nesciunt possimus vel adipisci debitis, nulla maxime.
+          Fugit, consequatur.
+        </p>
+      </div>
+    </div>
+    <!-- ================================================ -->
+    <div class="testimonials">kkkkk</div>
+    <!-- ================================================ -->
+    <div class="footer"></div>
+    <!-- ================================================ -->
+  </body>
+</html>
